@@ -1,13 +1,14 @@
+/*sets all default to shown*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*sets entire body default background*/
 body {
     background-color: #d9dcd6;
 }
-
+/*start header styling*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,6 +41,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/*end header styling*/
 
 a {
     color: #ffffff;
@@ -188,13 +190,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
